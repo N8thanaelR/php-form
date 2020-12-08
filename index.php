@@ -12,8 +12,15 @@ if(isset($_GET["FirstName"])){//show feedback
 }else{//show form
   echo '
   <form action="">
-  First Name <input type="text" name="FirstName" />
-  <br />
+  <p>First Name <input type="text" name="FirstName" /></p>
+  <p>Last Name <input type="text" name="LastName" /></p>
+  <p>Favorite Color</p>
+  <p><input type="radio" name="FavoriteColor" value="Red" />Red</p>
+  <p><input type="radio" name="FavoriteColor" value="Blue" />Blue</p>
+  <p><input type="radio" name="FavoriteColor" value="Yellow" />Yellow</p>
+  
+  
+  
   <input type="submit">
 
 </form>
